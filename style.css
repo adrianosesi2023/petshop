@@ -1,0 +1,112 @@
+body{
+    color: blueviolet;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.tudo{
+    padding-top: 200px;
+    
+}
+.final{
+    font-size: 12px;
+    color: white;
+    background-color: blueviolet;
+}
+.contato{
+    
+    color: white;
+    background-color: blueviolet;
+    img{
+        width: 100px;
+    }
+}
+.patro, .header1, .cao{
+    display: flex;
+}
+.banner{
+    height: 30vh;
+}
+.transparencia{
+    width: 1000px;
+    background-color: white;
+    a{
+        font-size: 30px;
+        text-decoration: none;
+        background-color: blueviolet;
+        color: white;
+    }
+}
+.header1{
+    display: flex;
+    padding-top: 20px;
+    font-size: 22px;
+    padding-bottom: 0px;
+    img{
+        padding-top: 17px;
+        width: 30px;
+        height: 30px;
+    }
+}
+.cao{
+    width: 100%;
+    height: 50vh;
+   background-image: url(img/banner-topo.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   font-size: 60px;
+   font-weight: bold;
+   .transparencia{
+    
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    box-shadow: 3px 3px 6px gray;
+}
+}
+.cao{
+    margin-top: 150px;
+}
+.header2{
+    display: flex;
+    margin-top: -55px;
+    padding-left: 5px;
+}
+.sobre{
+    padding-top: 250px;
+    h1{text-align: center;}
+    margin: 0 25%;
+}
+.patrocinios{
+    margin: 0 30%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.onde{
+    margin: 0 23%;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.contato{
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    img{
+        width: 50px;
+    }
+}
+.final{
+    padding: 3px;
+    font-size: 13px;
+    text-align: center;
+}
+.header{
+    padding-left: 20px;
+}
